@@ -46,6 +46,9 @@ else:
   print("Drone Shipping:")
   print(round(drone_cost, 2))
 print("")
+
+#Price Comparison
+
 if ground_cost < premium_cost and ground_cost < drone_cost:
     print("Your cheapest option is Ground Shipping.")
 elif premium_cost < ground_cost and ground_cost < drone_cost:
